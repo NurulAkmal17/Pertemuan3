@@ -8,7 +8,7 @@ interface B {
         println("From interface B")
     }
 }
-// This class implements X and Y interfaces
+// This class implements X and Y interfaces.
 class MyClassB: A, B {
     override fun demo() {
         super<A>.demo()
